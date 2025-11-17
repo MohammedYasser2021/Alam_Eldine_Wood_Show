@@ -175,6 +175,7 @@ function InvitationPage({ language = "AR" }) {
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             mb: 6, 
+            lineHeight: "1.8",
             fontSize: { xs: "1.1rem", md: "2rem" },
             textShadow: "0 4px 20px rgba(0,0,0,0.5)"
           }}>
@@ -183,13 +184,13 @@ function InvitationPage({ language = "AR" }) {
 
           {/* تفاصيل المعرض */}
           <Box sx={{ maxWidth: 700, mx: "auto", mb: 3, lineHeight: 4 }}>
-            <Typography sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 2, color: "#ddd", fontSize: "1.35rem", textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
+            <Typography sx={{ display: "flex", marginBottom: "15px", alignItems: "center", justifyContent: "center", gap: 2, color: "#ddd", fontSize: "1rem", textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
               <FaCalendarAlt color={primaryColor} size={26} /> <span style={{ color: textGold }}>{text.date}</span>
             </Typography>
-            <Typography sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 2, color: "#ddd", fontSize: "1.35rem", textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
+            <Typography sx={{ display: "flex",marginBottom: "15px", alignItems: "center", justifyContent: "center", gap: 2, color: "#ddd", fontSize: "1rem", textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
               <FaMapMarkerAlt color={primaryColor} size={26} /> {text.location}
             </Typography>
-            <Typography sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 2, color: "#ddd", fontSize: "1.35rem", textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
+            <Typography sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 2, color: "#ddd", fontSize: "1rem", textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
               <FaClock color={primaryColor} size={26} /> {text.hours}
             </Typography>
           </Box>
