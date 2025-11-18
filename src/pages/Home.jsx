@@ -160,9 +160,7 @@ function InvitationPage({ language = "AR" }) {
               alt="Alaa Eldin Group"
               style={{
                 height: 150,
-                border: "3px solid #e0393a",
                 borderRadius: "15px",
-                boxShadow: "0 4px 20px rgba(0,0,0,0.6)",
                 margin: "auto"
               }}
             />
