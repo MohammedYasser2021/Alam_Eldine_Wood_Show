@@ -339,8 +339,8 @@ function InvitationPage({ language = "AR" }) {
         </DialogContent>
       </Dialog>
 
-      <Dialog open={openAlert} onClose={() => setOpenAlert(false)}>
-        <DialogContent sx={{ bgcolor: "#111", textAlign: "center", p: 6, border: `3px solid ${alertSuccess ? primaryColor : '#d32f2f'}`, borderRadius: "16px" }}>
+      <Dialog open={openAlert} onClose={() => setOpenAlert(false)} >
+        <DialogContent sx={{ bgcolor: "#111", textAlign: "center", p: 6, border: `3px solid ${alertSuccess ? primaryColor : '#d32f2f'}` }}>
           <Typography variant="h5" sx={{ color: alertSuccess ? primaryColor : "#d32f2f", mb: 3, fontWeight: 700 }}>
             {alertSuccess ? "تم بنجاح" : "حدث خطأ"}
           </Typography>
