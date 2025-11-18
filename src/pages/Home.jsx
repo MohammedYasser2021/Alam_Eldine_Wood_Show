@@ -92,7 +92,7 @@ function InvitationPage({ language = "AR" }) {
       Date: new Date().toLocaleString("en-GB"),
     };
 
-    axios.post("https://sheetdb.io/api/v1/bqmf96vtebnks", data).catch(console.error);
+    axios.post("https://sheetdb.io/api/v1/78qosbgjp9bbe", data).catch(console.error);
 
     emailjs.send("service_17dbf7k", "template_4wvknlu", {
       from_name: name,
