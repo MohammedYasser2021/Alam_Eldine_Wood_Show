@@ -86,7 +86,7 @@ function InvitationPage({ language = "AR" }) {
     const data = {
       Name: name,
       Phone: phone,
-      Email: email,
+      Email: email || "غير محدد",
       Notes: notes || "لا توجد ملاحظات",
       Event: "WoodShow 2025",
       Date: new Date().toLocaleString("en-GB"),
@@ -315,7 +315,7 @@ function InvitationPage({ language = "AR" }) {
               InputLabelProps={{ style: { color: '#aaa' } }} InputProps={{ style: { color: '#fff' } }}
               sx={{ '& .MuiOutlinedInput-root': { '& fieldset': { borderColor: '#444' }, '&:hover fieldset': { borderColor: primaryColor } } }} />
 
-            <TextField label={text.email} type="email" fullWidth required margin="normal" value={email} onChange={(e) => setEmail(e.target.value)}
+            <TextField label={text.email} type="email" fullWidth margin="normal" value={email} onChange={(e) => setEmail(e.target.value)}
               InputLabelProps={{ style: { color: '#aaa' } }} InputProps={{ style: { color: '#fff' } }}
               sx={{ '& .MuiOutlinedInput-root': { '& fieldset': { borderColor: '#444' }, '&:hover fieldset': { borderColor: primaryColor } } }} />
 
