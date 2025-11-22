@@ -41,7 +41,7 @@ function InvitationPage({ language = "AR" }) {
       title: "تتشرف شركة علم الدين جروب بدعوتكم لحضور",
       event: "معرض القاهرة الدولي للأخشاب والماكينات",
       date: "من 27 إلى 30 نوفمبر 2025",
-      location: "مركز القاهرة الدولي للمؤتمرات والمعارض - مدينة نصر",
+      location: "مركز القاهرة الدولي للمؤتمرات والمعارض - مدينة نصر - رقم الجناح C-10",
       hours: "من 11:00 صباحاً حتى 8:00 مساءً يومياً",
       cta: "تأكيد الحضور",
       registerLink: "للتسجيل في المعرض",
@@ -54,13 +54,13 @@ function InvitationPage({ language = "AR" }) {
       submit: "تسجيل الحضور",
       success: "تم تسجيل حضورك بنجاح! نتطلع لرؤيتك في المعرض واستلام خصمك الخاص 10%",
       error: "برجاء إدخال الاسم ورقم الهاتف على الأقل",
-      incentive: "احجز حضورك الآن واستفد بخصم 10% على جميع مشترياتك أثناء المعرض\nوالخصم ممتد لمدة 15 يوم بعد انتهاء المعرض!",
+      incentive: "احجز حضورك الآن واستفد بخصم 10% على جميع مشترياتك أثناء المعرض\nوالخصم ممتد لمدة شهر بعد انتهاء المعرض!",
     },
     EN: {
       title: "Alaa Eldin Group Cordially Invites You to Attend",
       event: "Cairo International Wood & Woodworking Machinery Show",
       date: "27 – 30 November 2025",
-      location: "Cairo International Convention & Exhibition Center",
+      location: "Cairo International Convention & Exhibition Center - Nasr City - Booth No. C-10",
       hours: "11:00 AM – 8:00 PM Daily",
       cta: "Confirm Attendance",
       registerLink: "Register for the Exhibition",
@@ -73,7 +73,7 @@ function InvitationPage({ language = "AR" }) {
       submit: "Register",
       success: "Registration successful! We look forward to seeing you and your 10% discount",
       error: "Please enter your name and phone number",
-      incentive: "Confirm your attendance now and enjoy 10% discount on all purchases during the exhibition\nand the discount extends for 15 days after the event!",
+      incentive: "Confirm your attendance now and enjoy 10% discount on all purchases during the exhibition\nand the discount extends for One Month after the event!",
     },
   };
 
